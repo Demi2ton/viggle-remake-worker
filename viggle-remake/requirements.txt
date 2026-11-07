@@ -1,0 +1,14 @@
+﻿# Toys for Viggle-Remake Serverless on RunPod A100
+# Matches Viggle/Viggle-Remake inference/sample.py requirements exactly
+torch==2.9.1
+git+https://github.com/huggingface/diffusers@d6726f3
+transformers==5.14.1
+huggingface_hub==1.27.0
+safetensors==0.8.0
+peft==0.18.0
+accelerate==1.12.0
+tokenizers==0.22.1
+av==16.1.0
+numpy==2.3.5
+Pillow==12.2.0
+runpod==1.3.0
